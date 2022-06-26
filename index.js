@@ -1,5 +1,5 @@
-
 let numberOfDrumButtons = document.querySelectorAll(".drum").length;
+
 for (let i = 0; i < numberOfDrumButtons; i++) {
   document.getElementsByTagName("button")[i].addEventListener("click", function() {
     let buttonInnerHTML = this.innerHTML;
